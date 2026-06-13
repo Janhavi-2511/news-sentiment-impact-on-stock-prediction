@@ -1,5 +1,3 @@
-# news-sentiment-impact-on-stock-prediction
-
 # News Sentiment Impact on Stock Market Prediction
 
 A hybrid NLP + machine learning pipeline that analyzes how financial news sentiment
