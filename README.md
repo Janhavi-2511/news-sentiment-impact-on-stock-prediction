@@ -121,18 +121,10 @@ It goes beyond simple sentiment scoring — the pipeline integrates:
 ## How to Run
 
 1. Clone the repo and open `news_sentiment_stock_prediction.ipynb` in Google Colab
-2. Upload the three headline CSVs (`cnbc_headlines.csv`, `guardian_headlines.csv`, `reuters_headlines.csv`) to your Google Drive under `PDS_dataset/`
-3. Run all cells in order
+2. Download the datasets from `https://www.kaggle.com/datasets/notlucasp/financial-news-headlines`
+3. Upload the three headline CSVs (`cnbc_headlines.csv`, `guardian_headlines.csv`, `reuters_headlines.csv`) to your Google Drive under `dataset/`
+4. Run all cells in order
 
 > Note: The ARIMA fitting step takes ~30 seconds. GridSearchCV (405 fits) may take several minutes depending on hardware.
 
 ---
-
-## Project Structure
-
-```
-news-sentiment-stock-prediction/
-│
-├── news_sentiment_stock_prediction.ipynb   # Full pipeline notebook
-└── README.md
-```
